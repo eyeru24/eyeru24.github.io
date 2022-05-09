@@ -1,0 +1,3147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b4c681c4b6d94911afb22878c6085c32</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="mAchMmULQFSM">
+<p>#<strong>Final Project: Grammy's Best New Artist</strong></p>
+<ul>
+<li>think of better title</li>
+</ul>
+<p>For many artists, winning, or simply being nominated, for a Grammy Award is a incredible honor. For artists new to the industry, the Best New Artist award allows them to feel that their music is being appreciated and seen. The eligibility for the award is as follows:</p>
+<blockquote>
+<p>"<em>To be eligible in the category of Best New Artist, the artist, duo, or group: must have released a minimum of five tracks or one album..., may not have entered into this category more than three times..., and must have achieved a breakthrough into the public consciousness and impacted the musical landscape during the eligibility period.</em>"</p>
+</blockquote>
+<p>And the voting for the award is as follows:</p>
+<blockquote>
+<p>"<em>Members of the National Academy of Recording Arts and Sciences nominate their choices for the best new artist. A list of the top twenty artists is given to the Nominations Review Committee, a specially selected group of anonymous members, who initially selected the top five artists to gain a nomination in the category in a special ballot... The rest of the members then vote on a winner from the final nominees.</em>"</p>
+</blockquote>
+<p>As with many other awards, there are always people who believe that the award went to the wrong person. Throughout this project, we will be analyzing the nominees of the Grammy's Best New Artist award and seeing if the 'correct' artist won based on their success on the Billboard Hot 100 charts. In addition, we will see how many of the winners were affected by the 'Best New Artist Curse.'</p>
+<p>source: <a href="https://en.wikipedia.org/wiki/Grammy_Award_for_Best_New_Artist" class="uri">https://en.wikipedia.org/wiki/Grammy_Award_for_Best_New_Artist</a></p>
+<ul>
+<li>kinda bsed this intro, so change whatever</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="1" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="kdclI1eM2MER" data-outputId="be11b147-d23a-42a7-c1e7-b128f788dd16">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas._libs <span class="im">import</span> index</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(rc <span class="op">=</span> {<span class="st">&#39;figure.figsize&#39;</span>:(<span class="dv">15</span>,<span class="dv">8</span>)})</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Uncomment, run, then comment again if files are not updating</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># drive.flush_and_unmount()</span></span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.7/dist-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as tm
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+</div>
+<section id="data-collection-and-data-management" class="cell markdown" id="6ft4OHrdqQ2E">
+<h1>Data Collection and Data Management</h1>
+</section>
+<div class="cell markdown" id="uIfo2cNms33J">
+<p>For this project, we will be using two sources of data. The first dataset contains the Grammy's Best New Artist winners and nominees per year. We will be retrieving this data from the <a href="https://totalmusicawards.com/grammy-awards/best-new-artist-winners-nominees-archive/">Total Music Awards BNA winners archive</a>. We will use webscraping techniques and Python packages and libraries like requests, BeautifulSoup and pandas retrieve the data.</p>
+</div>
+<div class="cell code" data-execution_count="2" data-colab="{&quot;height&quot;:423,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="30_WiFx9qddO" data-outputId="508f973d-12aa-4956-c8fe-7bbb0ecfa064">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># extract text from webpage</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>page <span class="op">=</span> requests.get(<span class="st">&#39;https://totalmusicawards.com/grammy-awards/best-new-artist-winners-nominees-archive/&#39;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> page.text</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>soup <span class="op">=</span> BeautifulSoup(text, <span class="st">&#39;html.parser&#39;</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># award data located in one of many &lt;p&gt; tags</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> soup.find_all(<span class="st">&quot;p&quot;</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>awards <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># the range 2-23 contains BNA data from 2000 to 2021</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">24</span>):</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="co"># winners and nominees are separated by &lt;br&gt; tags and \n&#39;s</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  lst <span class="op">=</span> p[i].get_text().split(<span class="st">&#39;&lt;br/&gt;&#39;</span>)[<span class="dv">0</span>].split(<span class="st">&#39;</span><span class="ch">\n</span><span class="st">&#39;</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="co"># this makes a dataframe of one year&#39;s data</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  df <span class="op">=</span> pd.DataFrame(lst)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># winner of the award has &#39;Year: &#39; preceding their name, so grab to year to insert into Year column</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  year <span class="op">=</span> df.iloc[<span class="dv">0</span>,<span class="dv">0</span>][:<span class="dv">4</span>]</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  df[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> year</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove the &#39;Year: &#39; from the winner&#39;s entry</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  df.iloc[<span class="dv">0</span>,<span class="dv">0</span>] <span class="op">=</span> df.iloc[<span class="dv">0</span>,<span class="dv">0</span>][<span class="dv">6</span>:]</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  df[<span class="st">&#39;winner&#39;</span>] <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="co"># the winner was listed first, so make the first element of the df true</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  df.loc[<span class="dv">0</span>, <span class="st">&#39;winner&#39;</span>] <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>  <span class="co"># rename column and change order</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  df <span class="op">=</span> df.rename(columns<span class="op">=</span>{df.columns[<span class="dv">0</span>]: <span class="st">&#39;nominees&#39;</span>})</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  df <span class="op">=</span> df[[<span class="st">&#39;year&#39;</span>, <span class="st">&#39;nominees&#39;</span>, <span class="st">&#39;winner&#39;</span>]]</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  awards <span class="op">=</span> pd.concat([awards, df])</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># fix indeces</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>awards <span class="op">=</span> awards.reset_index()</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>awards <span class="op">=</span> awards.drop([<span class="st">&#39;index&#39;</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>awards</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+
+  <div id="df-92fe6ef9-6bb5-4d2a-92d9-96715f8421fc">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>nominees</th>
+      <th>winner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021</td>
+      <td>Megan Thee Stallion</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021</td>
+      <td>Ingrid Andress</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021</td>
+      <td>Phoebe Bridgers</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021</td>
+      <td>Chika</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021</td>
+      <td>Noah Cyrus</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>2000</td>
+      <td>Christina Aguilera</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>2000</td>
+      <td>Macy Gray</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>2000</td>
+      <td>Kid Rock</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>2000</td>
+      <td>Britney Spears</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>2000</td>
+      <td>Susan Tedeschi</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>119 rows × 3 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-92fe6ef9-6bb5-4d2a-92d9-96715f8421fc')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-92fe6ef9-6bb5-4d2a-92d9-96715f8421fc button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-92fe6ef9-6bb5-4d2a-92d9-96715f8421fc');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="3" data-colab="{&quot;height&quot;:770,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ttsOWuVnlbPV" data-outputId="3a1479eb-4fb3-4c31-d0ee-e8dd8d124c1f">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># # extract text from webpage</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># page = requests.get(&#39;https://en.wikipedia.org/wiki/Grammy_Award_for_Best_New_Artist&#39;)</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># text = page.text</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># soup = BeautifulSoup(text)</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># # find the tables with the years we want and combine</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># table = soup.findAll(&#39;table&#39;) # find all tables</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># zeros = pd.read_html(str(table[5]))[0] # 2000-2009</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># tens = pd.read_html(str(table[6]))[0] # 2010-2019</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="co"># twenties = pd.read_html(str(table[7]))[0] # 2020-2022</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># bnaWinners = pd.concat([zeros, tens, twenties])</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># # # clean the data</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co"># # bnaWinners = bnaWinners.drop(columns=[&#39;Image&#39;, &#39;Ref.&#39;]) # irrelevant columns</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co"># # bnaWinners = bnaWinners.rename(columns={&quot;Year[I]&quot;: &quot;year&quot;, &quot;Recipient&quot;:&quot;winner&quot;, &quot;Nominees&quot;: &quot;nominees&quot;})</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># # bnaWinners</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="co"># grab the winners from the winner/nominee data</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>bnaWinners <span class="op">=</span> awards[awards[<span class="st">&#39;winner&#39;</span>] <span class="op">==</span> <span class="va">True</span>]</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>bnaWinners <span class="op">=</span> bnaWinners.drop([<span class="st">&#39;winner&#39;</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>bnaWinners <span class="op">=</span> bnaWinners.rename(columns<span class="op">=</span>{bnaWinners.columns[<span class="dv">1</span>]: <span class="st">&#39;winner&#39;</span>})</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="co"># add Olivia&#39;s 2022 win which wasn&#39;t present on the site used</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>olivia <span class="op">=</span> pd.DataFrame({<span class="st">&#39;year&#39;</span>:<span class="st">&#39;2022&#39;</span>, <span class="st">&#39;winner&#39;</span>:<span class="st">&#39;Olivia Rodrigo&#39;</span>}, index <span class="op">=</span>[<span class="dv">0</span>])</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>bnaWinners <span class="op">=</span> pd.concat([olivia, bnaWinners]).reset_index(drop <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>bnaWinners</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+
+  <div id="df-87d2eed2-e8ac-4ea7-bce0-60e63a1334e4">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>winner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2022</td>
+      <td>Olivia Rodrigo</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021</td>
+      <td>Megan Thee Stallion</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020</td>
+      <td>Billie Eilish</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2019</td>
+      <td>Dua Lipa</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2018</td>
+      <td>Alessia Cara</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2017</td>
+      <td>Chance the Rapper</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2016</td>
+      <td>Meghan Trainor</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2015</td>
+      <td>Sam Smith</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2014</td>
+      <td>Macklemore &amp; Ryan Lewis</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2013</td>
+      <td>fun.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2012</td>
+      <td>Bon Iver</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2011</td>
+      <td>Esperanza Spalding</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2010</td>
+      <td>Zac Brown Band</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2009</td>
+      <td>Adele</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2008</td>
+      <td>Amy Winehouse</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2007</td>
+      <td>Carrie Underwood</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2006</td>
+      <td>John Legend</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2005</td>
+      <td>Maroon 5</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2004</td>
+      <td>Evanescence</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2003</td>
+      <td>Norah Jones</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2002</td>
+      <td>Alicia Keys</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2001</td>
+      <td>Shelby Lynne</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2000</td>
+      <td>Christina Aguilera</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-87d2eed2-e8ac-4ea7-bce0-60e63a1334e4')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-87d2eed2-e8ac-4ea7-bce0-60e63a1334e4 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-87d2eed2-e8ac-4ea7-bce0-60e63a1334e4');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="Skv57BrEt75U">
+<p>The second dataset retrieved from the <a href="https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs">Billboard Hot100 csv</a> contains weekly Billboard Hot 100 data from August 4, 1958 to November 6, 2021. The data includes the top 100 per week, the respective artist of each song and the song's ranking in the previous week, it's peak rank and it's total weeks on the chart up till then.</p>
+</div>
+<div class="cell code" data-execution_count="4" data-colab="{&quot;height&quot;:423,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7I7jREh9QZHa" data-outputId="fa1cf2ae-c50c-45e7-cb91-4269156f55ec">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># read file into dataframe, and clean data</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>charts <span class="op">=</span> pd.read_csv(<span class="st">&quot;/content/drive/My Drive/320_Spotify_FP/charts.csv&quot;</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>charts <span class="op">=</span> charts.rename(columns<span class="op">=</span>{<span class="st">&quot;last-week&quot;</span>: <span class="st">&quot;lastWeek&quot;</span>, <span class="st">&quot;peak-rank&quot;</span>:<span class="st">&quot;peakRank&quot;</span>, <span class="st">&quot;weeks-on-board&quot;</span>: <span class="st">&quot;weeksOnBoard&quot;</span>})</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>charts <span class="op">=</span> charts.loc[(charts[<span class="st">&#39;date&#39;</span>] <span class="op">&gt;=</span> <span class="st">&#39;1998-01-01&#39;</span>) <span class="op">&amp;</span> (charts[<span class="st">&#39;date&#39;</span>] <span class="op">&lt;=</span> <span class="st">&#39;2022-01-01&#39;</span>)] <span class="co"># only data we need</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>charts</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+  <div id="df-1c114845-8d5a-46ec-9a5a-bc567c695239">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>rank</th>
+      <th>song</th>
+      <th>artist</th>
+      <th>lastWeek</th>
+      <th>peakRank</th>
+      <th>weeksOnBoard</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-11-06</td>
+      <td>1</td>
+      <td>Easy On Me</td>
+      <td>Adele</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-11-06</td>
+      <td>2</td>
+      <td>Stay</td>
+      <td>The Kid LAROI &amp; Justin Bieber</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-11-06</td>
+      <td>3</td>
+      <td>Industry Baby</td>
+      <td>Lil Nas X &amp; Jack Harlow</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021-11-06</td>
+      <td>4</td>
+      <td>Fancy Like</td>
+      <td>Walker Hayes</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021-11-06</td>
+      <td>5</td>
+      <td>Bad Habits</td>
+      <td>Ed Sheeran</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>124495</th>
+      <td>1998-01-03</td>
+      <td>96</td>
+      <td>Smack My Bitch Up</td>
+      <td>The Prodigy</td>
+      <td>90.0</td>
+      <td>90</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>124496</th>
+      <td>1998-01-03</td>
+      <td>97</td>
+      <td>Don't Go</td>
+      <td>Le Click Featuring Kayo</td>
+      <td>94.0</td>
+      <td>62</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>124497</th>
+      <td>1998-01-03</td>
+      <td>98</td>
+      <td>Up &amp; Down</td>
+      <td>Billy Lawrence</td>
+      <td>99.0</td>
+      <td>92</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>124498</th>
+      <td>1998-01-03</td>
+      <td>99</td>
+      <td>Doin' Time</td>
+      <td>Sublime</td>
+      <td>96.0</td>
+      <td>96</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>124499</th>
+      <td>1998-01-03</td>
+      <td>100</td>
+      <td>Brian Wilson</td>
+      <td>Barenaked Ladies</td>
+      <td>100.0</td>
+      <td>92</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+<p>124500 rows × 7 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1c114845-8d5a-46ec-9a5a-bc567c695239')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1c114845-8d5a-46ec-9a5a-bc567c695239 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1c114845-8d5a-46ec-9a5a-bc567c695239');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="zUy50T1OJLVC">
+<p>// should we pick some general statistic to compare all the winners from 2010-2022. maybe songs to charts in their eligibility or peak rank. just so we can quickly see some trend between all the winners</p>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown" id="WFW4txa0u637">
+<h1>Exploratory Data Analysis</h1>
+</section>
+<div class="cell markdown" id="zQeUPfp6u-eK">
+<p>In this section, we will be exploring the accuracy of the Best New Artist winner decision based on the nominees Billboard Hot 100 success. In addition, we want to examine the 'Best New Artist Curse' and see how the careers of the winners continued after they won.</p>
+</div>
+<div class="cell markdown" id="yG-REvIXgA4A">
+<hr />
+<h2 id="accuracy-of-winner-chosen">Accuracy of Winner Chosen</h2>
+<p>First, we will be examing the success of the nominees vs. the winner in specific years in the eligibility period of that year's award.</p>
+</div>
+<div class="cell markdown" id="sA4x2EbfZPUw">
+<p><strong>2018 Best New Artist</strong></p>
+</div>
+<div class="cell markdown" id="M7iihweRPK5G">
+<p>This section focuses on the 2018 Best New Artist. The winner was Alessia Cara, who beat out Khalid, Lil Uzi Vert, Julia Michaels, and SZA. The eligibility for these Grammy's was October 1, 2016 to September 30, 2017. Using the Billboard Hot 100 data, we will be comparing several statistics.</p>
+</div>
+<div class="cell markdown" id="EoAihggnTvyi">
+<p>First we will be looking at the combined weeks on the Billboard Hot 100 charts in the eligibility period for all the artists.</p>
+</div>
+<div class="cell code" data-execution_count="5" data-colab="{&quot;height&quot;:237,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="T6v1q2wPL4T8" data-outputId="7f47808c-3c22-4f09-c31c-4b8637ad3cc4">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>bna2018 <span class="op">=</span> charts.loc[(charts[<span class="st">&#39;date&#39;</span>] <span class="op">&gt;=</span> <span class="st">&#39;2016-10-01&#39;</span>) <span class="op">&amp;</span> (charts[<span class="st">&#39;date&#39;</span>] <span class="op">&lt;=</span> <span class="st">&#39;2017-09-30&#39;</span>)] <span class="co"># reduce to eligibility period</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>bna2018 <span class="op">=</span> bna2018.loc[bna2018[<span class="st">&#39;artist&#39;</span>].isin([<span class="st">&#39;Alessia Cara&#39;</span>,<span class="st">&#39;Khalid&#39;</span>,<span class="st">&#39;Lil Uzi Vert&#39;</span>,<span class="st">&#39;Julia Michaels&#39;</span>,<span class="st">&#39;SZA&#39;</span>])] <span class="co"># only get nominees data</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>weeks <span class="op">=</span> bna2018.groupby(<span class="st">&#39;song&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">max</span>() <span class="co"># get each of their songs</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>weeks <span class="op">=</span> weeks.groupby(<span class="st">&#39;artist&#39;</span>).<span class="bu">sum</span>() <span class="co"># sum to get total weeksOnBoard for all their songs</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>weeks <span class="op">=</span> weeks.sort_values(by <span class="op">=</span><span class="st">&#39;weeksOnBoard&#39;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>weeks <span class="op">=</span> weeks.drop(columns<span class="op">=</span>[<span class="st">&#39;lastWeek&#39;</span>, <span class="st">&#39;peakRank&#39;</span>, <span class="st">&#39;rank&#39;</span>]) <span class="co"># remove irrelevant columns</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>weeks</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+
+  <div id="df-b69055c3-868f-4793-91da-a1eaf76d2843">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>weeksOnBoard</th>
+    </tr>
+    <tr>
+      <th>artist</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>SZA</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Julia Michaels</th>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>Khalid</th>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>Alessia Cara</th>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th>Lil Uzi Vert</th>
+      <td>88</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-b69055c3-868f-4793-91da-a1eaf76d2843')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-b69055c3-868f-4793-91da-a1eaf76d2843 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-b69055c3-868f-4793-91da-a1eaf76d2843');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="6" data-colab="{&quot;height&quot;:318,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ZiVseiqWVUqe" data-outputId="e4646973-70be-44d2-bf1f-404437c270e8">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>weeks[<span class="st">&#39;weeksOnBoard&#39;</span>].plot(kind<span class="op">=</span><span class="st">&quot;barh&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Total Weeks on Billboard Hot 100: 2018 Nominees&quot;</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Artist&quot;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Total Weeks&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>Text(0.5, 0, &#39;Total Weeks&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/f2437b79c5be2413354c7690279ee1e8843d7ffd.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="J8fmswGRXCa_">
+<p>Based on this statistic alone, one might think that Lil Uzi Vert should have won the award over Alessia Cara. However, it may be too early to jump to that conclusion. We should first look at the number of songs that each artist had chart during this time.</p>
+</div>
+<div class="cell code" data-execution_count="7" data-colab="{&quot;height&quot;:318,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="5qClzhvUagP9" data-outputId="4df3945a-0a75-473d-84c3-01e8801adb00">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> bna2018.groupby(<span class="st">&#39;song&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">min</span>()</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> num.drop(columns<span class="op">=</span>[<span class="st">&#39;lastWeek&#39;</span>, <span class="st">&#39;weeksOnBoard&#39;</span>, <span class="st">&#39;rank&#39;</span>]) <span class="co"># irrelevant columns</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>num <span class="op">=</span> num.groupby(<span class="st">&#39;artist&#39;</span>).size() <span class="co"># number of songs to chart</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Total Songs to Chart on Billboard Hot 100: 2018 Nominees&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Artist&quot;</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Total Songs&quot;</span>)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>plt.bar(num.index, num.values)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>&lt;BarContainer object of 5 artists&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/6dae5079d7d9b496338298e26b65418481fc55a4.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="pXThdyYRXmUy">
+<p>Based on these results, we can see that Lil Uzi Vert had significantly more songs to chart than any other nominee. This explains why he had the highest number of total weeks on the board. However, it is interesting to see that Alessia's total weeks is about 70% of Lil Uzi Vert's but her songs to chart were only 20% of Lil Uzi Vert's. This might mean that although she had fewer songs to chart, they might have been more successful. To see this, we can compare the peak rank's of all of the nominees.</p>
+</div>
+<div class="cell code" data-execution_count="8" data-colab="{&quot;height&quot;:551,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9NK2ltVRd2BY" data-outputId="cc03e6bf-eb6e-4ecd-934c-1212641f1feb">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>peak <span class="op">=</span> bna2018.groupby(<span class="st">&#39;song&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">min</span>()</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>peak <span class="op">=</span> peak.drop(columns<span class="op">=</span>[<span class="st">&#39;lastWeek&#39;</span>, <span class="st">&#39;weeksOnBoard&#39;</span>, <span class="st">&#39;rank&#39;</span>])</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>peak <span class="op">=</span> peak.sort_values(by <span class="op">=</span><span class="st">&#39;artist&#39;</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>peak</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+
+  <div id="df-6c47476e-fb5b-42be-8571-29b817721269">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>song</th>
+      <th>date</th>
+      <th>artist</th>
+      <th>peakRank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3</th>
+      <td>How Far I'll Go</td>
+      <td>2016-12-17</td>
+      <td>Alessia Cara</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Scars To Your Beautiful</td>
+      <td>2016-10-01</td>
+      <td>Alessia Cara</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Issues</td>
+      <td>2017-02-11</td>
+      <td>Julia Michaels</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Location</td>
+      <td>2017-01-28</td>
+      <td>Khalid</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Young Dumb &amp; Broke</td>
+      <td>2017-08-05</td>
+      <td>Khalid</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>444+222</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Dark Queen</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>For Real</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Money Longer</td>
+      <td>2016-10-01</td>
+      <td>Lil Uzi Vert</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>No Sleep Leak</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Sauce It Up</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Two</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>X</td>
+      <td>2017-09-16</td>
+      <td>Lil Uzi Vert</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>XO TOUR Llif3</td>
+      <td>2017-04-15</td>
+      <td>Lil Uzi Vert</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>You Was Right</td>
+      <td>2016-10-01</td>
+      <td>Lil Uzi Vert</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>The Weekend</td>
+      <td>2017-08-19</td>
+      <td>SZA</td>
+      <td>54</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-6c47476e-fb5b-42be-8571-29b817721269')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-6c47476e-fb5b-42be-8571-29b817721269 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-6c47476e-fb5b-42be-8571-29b817721269');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;height&quot;:416,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="BjY3kyr8b4ni" data-outputId="21aa5b8a-8ce4-4f7c-f264-782e1a5e1cd2">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get data</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> peak[<span class="st">&#39;song&#39;</span>]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> peak[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>x_pos <span class="op">=</span> np.arange(<span class="bu">len</span>(x))</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># add specific color for each artist</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>plt.bar(x_pos, y, color<span class="op">=</span>[<span class="st">&#39;red&#39;</span>,<span class="st">&#39;red&#39;</span>, <span class="st">&#39;black&#39;</span>,<span class="st">&#39;green&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;blue&#39;</span>, <span class="st">&#39;blue&#39;</span>,</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>                         <span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>,<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;cyan&#39;</span>])</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(x_pos, x)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co"># add legend</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> {<span class="st">&#39;Alessia Cara&#39;</span>:<span class="st">&#39;red&#39;</span>, <span class="st">&#39;Julia Michaels&#39;</span>:<span class="st">&#39;black&#39;</span>, <span class="st">&#39;Khalid&#39;</span>:<span class="st">&#39;green&#39;</span>, <span class="st">&#39;Lil Uzi Vert&#39;</span>:<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;SZA&#39;</span>:<span class="st">&#39;cyan&#39;</span>}         </span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> <span class="bu">list</span>(colors.keys())</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>handles <span class="op">=</span> [plt.Rectangle((<span class="dv">0</span>,<span class="dv">0</span>),<span class="dv">1</span>,<span class="dv">1</span>, color<span class="op">=</span>colors[label]) <span class="cf">for</span> label <span class="kw">in</span> labels]</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>plt.legend(handles, labels, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.05</span>, <span class="dv">1</span>), loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>, borderaxespad<span class="op">=</span><span class="dv">0</span>, title<span class="op">=</span><span class="st">&quot;Artist&quot;</span>, ncol<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a><span class="co"># title and labels</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Peak Rank for Artists&#39; Songs on Billboard Hot 100: 2018 Nominees&quot;</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Peak Rank&quot;</span>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Song&quot;</span>)</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation <span class="op">=</span> <span class="dv">90</span>) <span class="co"># adjust x labels</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/2227ed44eafe7a301adafcad2189bd0b6f100b2d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="U5hTGInone1v">
+<p>Although Lil Uzi Vert did have more songs to chart than any other nominee, only one of his songs ever reached the top 20. Khalid, Julia Michaels, and Alessia Cara also had songs to reach the top 20. However, Lil Uzi Vert did have the highest peak at 7, with Alessia Cara just behind him at 8 and Julia Michaels and Khalid just a few beind with 11 and 16, respectively.</p>
+<p>Based on all of these results, some people may think that Lil Uzi Vert deserved to win the award over Alessia Cara. However, to the voters, it may be more than song success that affects their vote. They could also take into account their generation and cultural effect. Unfortunately, that is hard to quantify into simple data. Although, Lil Uzi Vert did have a lot of success in that period, Alessia also did, so it is hard to say who really deserved to win.</p>
+</div>
+<div class="cell markdown" id="C-3K9cUnc55m">
+<p><strong>Conclusion</strong></p>
+<p>...</p>
+</div>
+<div class="cell markdown" id="2srItz4RI5fz">
+<hr />
+<h2 id="is-the-best-new-artist-curse-real">Is the Best New Artist Curse Real?</h2>
+<p>Although winning a Grammy award is a great honor for many artists, some may not be very happy to the win the Best New Artist award. Unfortunately, "The Best New Artist award has a reputation for being given to artists whose music industry success ends up being short-lived; it is sometimes asserted, with varying degrees of sincerity, that the award itself brings a curse." So although some may feel grateful to win the award, they might also feel anxious about where their career is headed. In this next section, we will be analyzing the careers of some winners following their win and deciding if they were affected by the curse. To analyze their careers, we will be using the success of their songs on Billboard's Hot 100 chart.</p>
+</div>
+<div class="cell markdown" id="esFKnbMgs0Lq">
+<p><strong>Adele: 2009 Best New Artist</strong></p>
+<p>First, we will be looking at the 2009 Best New Artist winner Adele.</p>
+</div>
+<div class="cell code" data-execution_count="10" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="IRkEQfn2s95j" data-outputId="6bba722c-5ace-4686-d411-61be0969d43f">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>adele <span class="op">=</span> charts[charts[<span class="st">&#39;artist&#39;</span>].<span class="bu">str</span>.contains(<span class="st">&quot;Adele&quot;</span>)] <span class="co"># get all adele data</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>adele <span class="op">=</span> adele.loc[(adele[<span class="st">&#39;rank&#39;</span>] <span class="op">==</span> adele[<span class="st">&#39;peakRank&#39;</span>])] <span class="co"># get highest rank of song</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>adele <span class="op">=</span> adele.groupby(<span class="st">&#39;song&#39;</span>).agg({<span class="st">&#39;peakRank&#39;</span>:<span class="st">&#39;min&#39;</span>, <span class="st">&#39;date&#39;</span>:<span class="st">&#39;max&#39;</span>}).reset_index() <span class="co"># gets the date of peak rank (latest, if multiple weeks at peak)</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>adele[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> pd.DatetimeIndex(adele[<span class="st">&#39;date&#39;</span>]).year</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>adele</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+
+  <div id="df-4cf71404-fa75-443c-83f2-fdef3cfb32a7">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>song</th>
+      <th>peakRank</th>
+      <th>date</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>All I Ask</td>
+      <td>77</td>
+      <td>2016-03-05</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Chasing Pavements</td>
+      <td>21</td>
+      <td>2009-02-28</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Easy On Me</td>
+      <td>1</td>
+      <td>2021-11-06</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Hello</td>
+      <td>1</td>
+      <td>2016-01-16</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Remedy</td>
+      <td>87</td>
+      <td>2015-12-12</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Rolling In The Deep</td>
+      <td>1</td>
+      <td>2011-07-02</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Rumour Has It</td>
+      <td>16</td>
+      <td>2012-05-26</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Send My Love (To Your New Lover)</td>
+      <td>8</td>
+      <td>2016-09-24</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Set Fire To The Rain</td>
+      <td>1</td>
+      <td>2012-02-11</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Skyfall</td>
+      <td>8</td>
+      <td>2012-10-20</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Someone Like You</td>
+      <td>1</td>
+      <td>2011-11-05</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Turning Tables</td>
+      <td>63</td>
+      <td>2011-05-07</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Water Under The Bridge</td>
+      <td>26</td>
+      <td>2017-02-11</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>When We Were Young</td>
+      <td>14</td>
+      <td>2016-03-05</td>
+      <td>2016</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-4cf71404-fa75-443c-83f2-fdef3cfb32a7')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-4cf71404-fa75-443c-83f2-fdef3cfb32a7 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-4cf71404-fa75-443c-83f2-fdef3cfb32a7');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="KHxYgtY7V_en">
+<p>From 2009 to 2021, she had had 14 songs to chart on Billboard Hot 100. So, she averages about 1 song a year charting. Let's see how well her songs have charted over these years.</p>
+</div>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="-xC-5Ui_tTS8" data-outputId="62e34ae6-2686-4a71-d7c5-063301789397">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> adele.groupby(<span class="st">&#39;year&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">min</span>() <span class="co"># get year peak</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> year[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> year[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Year Peak on Billboard Hot 100 Per Year: Adele&quot;</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7f1b62c4bb50&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/77b1f92d801096b60298e6b4be11ae6007e5b048.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="u6hJglWpWfWw">
+<p>This plot shows us a lot about the success of Adele over the years. We can see that after her Grammy win in 2009, her chart peak increased and peaked at #1. However, after 2012, there was a steep decline until 2015. Following this low, she recovered and got back to the top of the chart, and she has had successful songs since. To better understand her career and these trends, I think it's important to look at the number of songs that have charted over that time.</p>
+</div>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="i_01V93vU4mI" data-outputId="87147751-13ea-485e-fc59-b4eb2d17e3aa">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get data </span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> adele[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> adele[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Song Peaks on Billboard Hot 100 Per Year: Adele&quot;</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, <span class="st">&#39;.&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7f1b62c35d10&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/df4077b8dec5b658754a7f0a7bb8bc76dfdf9885.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="vvZk20H9XUJ-">
+<p>I believe that this chart gives us a better understanding of her career. We can see that she had several songs to chart in the years following her win but then went a few years without having any to chart. Then had several songs to chart aroun 2016. After doing further research, I learned that she released one album in 2011, and then her next in 2015. So based on this, we can understand why there is a gap in this chart between 2012 and 2015. Based on these results, I would conclude that Adele was not affected by the Best New Artist curse.</p>
+</div>
+<div class="cell markdown" id="ON0zUpp7tnTV">
+<p><strong>Zac Brown Band: 2010 Best New Artist</strong></p>
+<p>Next, we will be looking at the 2010 Best New Artist winner, the Zac Brown Band.</p>
+</div>
+<div class="cell code" data-execution_count="13" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9zphrXhPtv_j" data-outputId="fbd8dead-ccaa-441e-8158-a0ffe64483f8">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>zbb <span class="op">=</span> charts[charts[<span class="st">&#39;artist&#39;</span>].<span class="bu">str</span>.contains(<span class="st">&quot;Zac Brown Band&quot;</span>)] <span class="co"># get all zbb data</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>zbb <span class="op">=</span> zbb.loc[(zbb[<span class="st">&#39;rank&#39;</span>] <span class="op">==</span> zbb[<span class="st">&#39;peakRank&#39;</span>])] <span class="co"># get highest rank of song</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>zbb <span class="op">=</span> zbb.groupby(<span class="st">&#39;song&#39;</span>).agg({<span class="st">&#39;peakRank&#39;</span>:<span class="st">&#39;min&#39;</span>, <span class="st">&#39;date&#39;</span>:<span class="st">&#39;max&#39;</span>}).reset_index() <span class="co"># gets the date of peak rank (latest, if multiple weeks at peak)</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>zbb[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> pd.DatetimeIndex(zbb[<span class="st">&#39;date&#39;</span>]).year</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>zbb</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+
+  <div id="df-44893c6d-a91c-4720-8898-d67a6a4196ff">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>song</th>
+      <th>peakRank</th>
+      <th>date</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>As She's Walking Away</td>
+      <td>32</td>
+      <td>2010-11-27</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Beautiful Drug</td>
+      <td>52</td>
+      <td>2016-04-02</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Castaway</td>
+      <td>96</td>
+      <td>2016-09-03</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Chicken Fried</td>
+      <td>20</td>
+      <td>2009-01-03</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Colder Weather</td>
+      <td>29</td>
+      <td>2011-04-23</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Free</td>
+      <td>34</td>
+      <td>2010-08-14</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Goodbye In Her Eyes</td>
+      <td>48</td>
+      <td>2012-12-22</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Highway 20 Ride</td>
+      <td>40</td>
+      <td>2010-04-10</td>
+      <td>2010</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Homegrown</td>
+      <td>35</td>
+      <td>2015-04-25</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Jump Right In</td>
+      <td>53</td>
+      <td>2013-07-27</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Keep Me In Mind</td>
+      <td>35</td>
+      <td>2011-12-24</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Knee Deep</td>
+      <td>18</td>
+      <td>2011-08-06</td>
+      <td>2011</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Loving You Easy</td>
+      <td>40</td>
+      <td>2015-08-29</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>My Old Man</td>
+      <td>68</td>
+      <td>2017-02-25</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>No Hurry</td>
+      <td>50</td>
+      <td>2012-06-09</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Same Boat</td>
+      <td>53</td>
+      <td>2021-11-06</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Sweet Annie</td>
+      <td>47</td>
+      <td>2013-12-28</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>The Man Who Loves You The Most</td>
+      <td>96</td>
+      <td>2020-06-27</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>The Wind</td>
+      <td>70</td>
+      <td>2012-09-01</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Toes</td>
+      <td>25</td>
+      <td>2009-11-07</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Whatever It Is</td>
+      <td>26</td>
+      <td>2009-07-18</td>
+      <td>2009</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-44893c6d-a91c-4720-8898-d67a6a4196ff')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-44893c6d-a91c-4720-8898-d67a6a4196ff button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-44893c6d-a91c-4720-8898-d67a6a4196ff');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="2wYMuqrfYU5f">
+<p>Between the years 2009 and 2021, the Zac Brown Band has had 21 songs to chart which averages over a song a year. Now let's see how the band's songs have peaked over the years.</p>
+</div>
+<div class="cell code" data-execution_count="14" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="uHFV4yZWt7tx" data-outputId="5bb6e9be-2904-49c6-b3f7-e0b5ef2b42ed">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> zbb.groupby(<span class="st">&#39;year&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">min</span>() <span class="co"># get year peak</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> year[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> year[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Year Peak on Billboard Hot 100 Per Year: Zac Brown Band&quot;</span>)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7f1b62bee690&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/8fb7c7dbc27390b198986032410bd28bee570e4a.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="65K3DGLdY8Qk">
+<p>At first glance, we can see a general downward decline over the years. To better understand the results, we should also look at the number of songs to chart for the band over the years.</p>
+</div>
+<div class="cell code" data-execution_count="15" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="OCyRDWjRVGJP" data-outputId="e6492bd8-45e1-42aa-bb32-d2637b105900">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get data </span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> zbb[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> zbb[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Song Peaks on Billboard Hot 100 Per Year: Zac Brown Band&quot;</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, <span class="st">&#39;.&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7f1b62c80090&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/a8ea3cc12a662daac40dd140c6cbccc234fad69d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="_rELtc3xZT5k">
+<p>Based on this chart, we can see that the number of the band's songs to chart on Billboard's Hot 100 has decreased over time. However, we can see that immediately following their win in 2010, they were very successful. Unfortunately, the success at that level did not continue. Regardless of their decline, it is important to note that even though their songs aren't reach the top of the charts, they are still charting, which indicates some level of success. However, based on this data, I would conclude that the Zac Brown Band was affected by the Best New Artist curse.</p>
+</div>
+<div class="cell markdown" id="h5fvqo2sqar6">
+<p><strong>Dua Lipa: 2019 Best New Artist</strong></p>
+<p>Lastly, we will be looking at Dua Lipa's Hot 100 success leading up to her win and following her win. First we will get all of her songs that have charted.</p>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7P3JLtbMvQO7" data-outputId="8641cf9d-12d6-4d43-b32d-0a62c6da496e">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> charts[charts[<span class="st">&#39;artist&#39;</span>].<span class="bu">str</span>.contains(<span class="st">&quot;Dua Lipa&quot;</span>)] <span class="co"># get all dua lipa data</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> d.loc[(d[<span class="st">&#39;rank&#39;</span>] <span class="op">==</span> d[<span class="st">&#39;peakRank&#39;</span>])] <span class="co"># get highest rank of song</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> d.groupby(<span class="st">&#39;song&#39;</span>).agg({<span class="st">&#39;peakRank&#39;</span>:<span class="st">&#39;min&#39;</span>, <span class="st">&#39;date&#39;</span>:<span class="st">&#39;max&#39;</span>}).reset_index() <span class="co"># gets the date of peak rank (latest, if multiple weeks at peak)</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>d[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> pd.DatetimeIndex(d[<span class="st">&#39;date&#39;</span>]).year</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>d</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+
+  <div id="df-33fe46ef-93e5-4626-b966-9c6226f10882">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>song</th>
+      <th>peakRank</th>
+      <th>date</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Blow Your Mind (Mwah)</td>
+      <td>72</td>
+      <td>2016-11-05</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Break My Heart</td>
+      <td>13</td>
+      <td>2020-08-29</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Cold Heart (PNAU Remix)</td>
+      <td>15</td>
+      <td>2021-11-06</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Demeanor</td>
+      <td>86</td>
+      <td>2021-07-31</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Don't Start Now</td>
+      <td>2</td>
+      <td>2020-03-21</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Electricity</td>
+      <td>62</td>
+      <td>2019-01-19</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>IDGAF</td>
+      <td>49</td>
+      <td>2018-06-09</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Kiss And Make Up</td>
+      <td>93</td>
+      <td>2018-11-03</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Levitating</td>
+      <td>2</td>
+      <td>2021-05-22</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Love Again</td>
+      <td>41</td>
+      <td>2021-10-16</td>
+      <td>2021</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>New Rules</td>
+      <td>6</td>
+      <td>2018-02-17</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>One Kiss</td>
+      <td>26</td>
+      <td>2018-07-28</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Physical</td>
+      <td>60</td>
+      <td>2020-02-15</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Prisoner</td>
+      <td>54</td>
+      <td>2020-12-05</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Scared To Be Lonely</td>
+      <td>76</td>
+      <td>2017-05-27</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Un Dia (One Day)</td>
+      <td>63</td>
+      <td>2020-08-08</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>We're Good</td>
+      <td>31</td>
+      <td>2021-05-22</td>
+      <td>2021</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-33fe46ef-93e5-4626-b966-9c6226f10882')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-33fe46ef-93e5-4626-b966-9c6226f10882 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-33fe46ef-93e5-4626-b966-9c6226f10882');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="5SHzLf62rBI_">
+<p>We can see that she had 17 songs to chart from 2016-2021, which averages 3 songs a year. Next, we will see if there has been a trend in how well her music has done on the chart leading up to her win and following her win.</p>
+</div>
+<div class="cell code" data-execution_count="17" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="MtDu4iV3gbXS" data-outputId="733db9f9-f97c-42f8-939e-8576090de9a9">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>year <span class="op">=</span> d.groupby(<span class="st">&#39;year&#39;</span>, as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">min</span>() <span class="co"># get year peak</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> year[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> year[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Year Peak on Billboard Hot 100 Per Year: Dua Lipa&quot;</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7f1b62b404d0&gt;]</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/efff4a14de8eff514050a6207fb45e45a6aee9c9.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="30Hy4jRqrpGD">
+<p>The eligibility period for the 2019 Grammy's was October 1, 2017 to September 30, 2018. Based on this chart, we can see that prior to her win, Dua Lipa hit her peak in 2018, which might explain her win. However, she did not even reach the top 50 in 2019 following her win. Based on this, some people may think that she was affected by the Best New Artist Curse. However, she get back to the top 5 in 2020 and 2021. Although peak rank of the year is important, it would be interesting to see how all of her songs that charts did.</p>
+</div>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="RpPrnvm5xHSj" data-outputId="b830d636-7524-4239-940e-672f77cf45a3">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get data </span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> d[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> d[<span class="st">&#39;peakRank&#39;</span>]</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Song Peaks on Billboard Hot 100 Per Year: Dua Lipa&quot;</span>)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Year&#39;</span>)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Hot 100 Ranking&#39;</span>)</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>plt.scatter(x, y)</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/2978f4b5a018c5980cb6369527f32b48ec132219.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="oJt2cZKasghQ">
+<p>Based on this chart, we can see that at least of her songs that charted after her win reached the top 50 and four of her songs reach the top 20. Although it seems like Dua Lipa's career is going strong, I don't think enough time has passed to decide whether or not she has been affected by the Best New Artist curse. Over the next few years, we can make that decision based on if she continues to have songs that reach the top of the charts, or if there is a decline.</p>
+</div>
+<div class="cell markdown" id="LVB4G9L2aW2z">
+<p><strong>Conclusion</strong></p>
+<p>After looking at these three artists' careers following the wins, it is obvious that every winner has a unique journey. We can see that some have been affected by the curse and some have not. However, although some of these artists have had a decline following their win, it is never too late for them to make a comeback and get back to the level of success that they were at.</p>
+</div>
+<section id="hypothesis-testing" class="cell markdown" id="lx7Jqqd3tThs">
+<h1>Hypothesis Testing</h1>
+</section>
+<div class="cell code" data-execution_count="19" id="b6pqHelajK3W">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># bnaWinners</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># christinaA = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;1998-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;1999-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co"># christinaA = christinaA[christinaA[&#39;artist&#39;].str.contains(&quot;Christina Aguilera&quot;)]</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="co"># shelbyL = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;1999-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2000-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="co"># shelbyL = shelbyL[shelbyL[&#39;artist&#39;].str.contains(&quot;Shelby Lynne&quot;)]</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="co"># aliciaK = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2000-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2001-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="co"># aliciaK = aliciaK[aliciaK[&#39;artist&#39;].str.contains(&quot;Alicia Keys&quot;)]</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a><span class="co"># norahJ = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2001-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2002-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a><span class="co"># norahJ = norahJ[norahJ[&#39;artist&#39;].str.contains(&quot;Norah Jones&quot;)]</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a><span class="co"># evanescence = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2002-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2003-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a><span class="co"># evanescence = evanescence[evanescence[&#39;artist&#39;].str.contains(&quot;Evanescence&quot;)]</span></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a><span class="co"># maroon5 = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2003-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2004-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a><span class="co"># maroon5 = maroon5[maroon5[&#39;artist&#39;].str.contains(&quot;Maroon 5&quot;)]</span></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a><span class="co"># johnL = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2004-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2005-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a><span class="co"># johnL = johnL[johnL[&#39;artist&#39;].str.contains(&quot;John Legend&quot;)]</span></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a><span class="co"># carrieU = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2005-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2006-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a><span class="co"># carrieU = carrieU[carrieU[&#39;artist&#39;].str.contains(&quot;Carrie Underwood&quot;)]</span></span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a><span class="co"># amyW = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2006-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2007-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a><span class="co"># amyW = amyW[amyW[&#39;artist&#39;].str.contains(&quot;Amy Winehouse&quot;)]</span></span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a><span class="co"># adele = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2007-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2008-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a><span class="co"># adele = adele[adele[&#39;artist&#39;].str.contains(&quot;Adele&quot;)]</span></span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a><span class="co"># zacBB = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2008-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2009-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true" tabindex="-1"></a><span class="co"># zacBB = zacBB[zacBB[&#39;artist&#39;].str.contains(&quot;Zac Brown Band&quot;)]</span></span>
+<span id="cb28-35"><a href="#cb28-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-36"><a href="#cb28-36" aria-hidden="true" tabindex="-1"></a><span class="co"># esperanzaS = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2009-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2010-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-37"><a href="#cb28-37" aria-hidden="true" tabindex="-1"></a><span class="co"># esperanzaS = esperanzaS[esperanzaS[&#39;artist&#39;].str.contains(&quot;Esperanza Spalding&quot;)]</span></span>
+<span id="cb28-38"><a href="#cb28-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-39"><a href="#cb28-39" aria-hidden="true" tabindex="-1"></a><span class="co"># bonI = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2010-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2011-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-40"><a href="#cb28-40" aria-hidden="true" tabindex="-1"></a><span class="co"># bonI = bonI[bonI[&#39;artist&#39;].str.contains(&quot;Bon Iver&quot;)]</span></span>
+<span id="cb28-41"><a href="#cb28-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-42"><a href="#cb28-42" aria-hidden="true" tabindex="-1"></a><span class="co"># fun = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2011-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2012-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-43"><a href="#cb28-43" aria-hidden="true" tabindex="-1"></a><span class="co"># fun = fun[fun[&#39;artist&#39;].str.contains(&quot;fun.&quot;)]</span></span>
+<span id="cb28-44"><a href="#cb28-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-45"><a href="#cb28-45" aria-hidden="true" tabindex="-1"></a><span class="co"># mAndR = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2012-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2013-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-46"><a href="#cb28-46" aria-hidden="true" tabindex="-1"></a><span class="co"># mAndR = mAndR[mAndR[&#39;artist&#39;].str.contains(&quot;Macklemore &amp; Ryan Lewis&quot;)]</span></span>
+<span id="cb28-47"><a href="#cb28-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-48"><a href="#cb28-48" aria-hidden="true" tabindex="-1"></a><span class="co"># samS = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2013-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2014-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-49"><a href="#cb28-49" aria-hidden="true" tabindex="-1"></a><span class="co"># samS = samS[samS[&#39;artist&#39;].str.contains(&quot;Sam Smith&quot;)]</span></span>
+<span id="cb28-50"><a href="#cb28-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-51"><a href="#cb28-51" aria-hidden="true" tabindex="-1"></a><span class="co"># meghanT = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2014-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2015-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-52"><a href="#cb28-52" aria-hidden="true" tabindex="-1"></a><span class="co"># meghanT = meghanT[meghanT[&#39;artist&#39;].str.contains(&quot;Meghan Trainor&quot;)]</span></span>
+<span id="cb28-53"><a href="#cb28-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-54"><a href="#cb28-54" aria-hidden="true" tabindex="-1"></a><span class="co"># chance = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2015-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2016-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-55"><a href="#cb28-55" aria-hidden="true" tabindex="-1"></a><span class="co"># chance = chance[chance[&#39;artist&#39;].str.contains(&quot;Chance The Rapper&quot;)]</span></span>
+<span id="cb28-56"><a href="#cb28-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-57"><a href="#cb28-57" aria-hidden="true" tabindex="-1"></a><span class="co"># alessiaC = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2016-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2017-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-58"><a href="#cb28-58" aria-hidden="true" tabindex="-1"></a><span class="co"># alessiaC = alessiaC[alessiaC[&#39;artist&#39;].str.contains(&quot;Alessia Cara&quot;)]</span></span>
+<span id="cb28-59"><a href="#cb28-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-60"><a href="#cb28-60" aria-hidden="true" tabindex="-1"></a><span class="co"># duaL = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2017-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2018-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-61"><a href="#cb28-61" aria-hidden="true" tabindex="-1"></a><span class="co"># duaL = duaL[duaL[&#39;artist&#39;].str.contains(&quot;Dua Lipa&quot;)]</span></span>
+<span id="cb28-62"><a href="#cb28-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-63"><a href="#cb28-63" aria-hidden="true" tabindex="-1"></a><span class="co"># billieE = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2018-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2019-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-64"><a href="#cb28-64" aria-hidden="true" tabindex="-1"></a><span class="co"># billieE = billieE[billieE[&#39;artist&#39;].str.contains(&quot;Billie Eilish&quot;)]</span></span>
+<span id="cb28-65"><a href="#cb28-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-66"><a href="#cb28-66" aria-hidden="true" tabindex="-1"></a><span class="co"># meganTS = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2019-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2020-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-67"><a href="#cb28-67" aria-hidden="true" tabindex="-1"></a><span class="co"># meganTS = meganTS[meganTS[&#39;artist&#39;].str.contains(&quot;Megan Thee Stallion&quot;)]</span></span>
+<span id="cb28-68"><a href="#cb28-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-69"><a href="#cb28-69" aria-hidden="true" tabindex="-1"></a><span class="co"># oliviaR = charts.loc[(charts[&#39;date&#39;] &gt;= &#39;2020-10-01&#39;) &amp; (charts[&#39;date&#39;] &lt;= &#39;2021-09-30&#39;)] # reduce to eligibility period</span></span>
+<span id="cb28-70"><a href="#cb28-70" aria-hidden="true" tabindex="-1"></a><span class="co"># oliviaR = oliviaR[oliviaR[&#39;artist&#39;].str.contains(&quot;Olivia Rodrigo&quot;)]</span></span>
+<span id="cb28-71"><a href="#cb28-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-72"><a href="#cb28-72" aria-hidden="true" tabindex="-1"></a><span class="co"># winnersData = pd.concat([christinaA, shelbyL, aliciaK, norahJ, evanescence, maroon5, johnL, carrieU, amyW, adele, zacBB, esperanzaS, bonI, fun, mAndR, samS, meghanT, chance, alessiaC, duaL, billieE, meganTS, oliviaR])</span></span>
+<span id="cb28-73"><a href="#cb28-73" aria-hidden="true" tabindex="-1"></a><span class="co"># winnersData</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20" id="7gTMKO7itBd3">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># num = winnersData.groupby(&#39;song&#39;, as_index=False).min()</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="co"># num = num.groupby(&#39;artist&#39;).size() # number of songs to chart</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="co"># peak = winnersData.groupby(&#39;song&#39;, as_index=False).min() # to get peak rank of each song</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co"># peak</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="co"># bnaWinners = bnaWinners.drop(columns=[&#39;nominees&#39;]) # want to add artist data to this dataframe</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co"># bnaWinners</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="Dnv6CU2rHXn_">
+<p>Our first informal hypothesis test is one where we consider the relationship between the amount of time that has passed, and the average Billboard ranking per winner. <strong>Our question is simple: "Is there a trend to the average ranking of each winning artist on the Billboard charts as time progresses?</strong> As time increases, the higher the average ranking for the winning artist will be. This is important to note, as this is the basis of our hypothesis: we are assuming that there is a relationship between charting and winning - this assumption will be addressed later but is notable to keep in mind.</p>
+<p>To start conducting the experiment, we first extract all of the winning artists from the overall Billboard chart during their eligibility period. There are two artists who are not represented in this dataset, however. Winner of the 2001 BNA: Shelby Lynne, because she is simply not in the Billboard charts, and winner of the 2009 BNA: Adele, because she did not have any charting data within the eligibility period.</p>
+</div>
+<div class="cell code" data-execution_count="21" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="w5OY0-XEt5Fs" data-outputId="616a8cfc-34c0-42e1-8f87-286178923c5f">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This was used to suppress redundant warnings</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>pd.options.mode.chained_assignment <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_eligible_songs(artist_df, column_name):</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>  <span class="co"># This instantiates the inital final datframe</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>  songs <span class="op">=</span> pd.DataFrame(columns<span class="op">=</span>[<span class="st">&#39;date&#39;</span>, <span class="st">&#39;rank&#39;</span>, <span class="st">&#39;song&#39;</span>, <span class="st">&#39;artist&#39;</span>, <span class="st">&#39;lastWeek&#39;</span>, <span class="st">&#39;peakRank&#39;</span>, <span class="st">&#39;weeksOnBoard&#39;</span>])</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>  <span class="co"># This is a loop that grabs the name of the winners and all of the data that is associated within their eligibility period</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> index, winner <span class="kw">in</span> artist_df.iterrows():</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Grab the correct year of the winner and create proper start and end dates</span></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    year <span class="op">=</span> <span class="bu">int</span>(winner[<span class="st">&#39;year&#39;</span>])</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    start <span class="op">=</span> <span class="bu">str</span>(year <span class="op">-</span> <span class="dv">2</span>) <span class="op">+</span> <span class="st">&#39;-10-01&#39;</span></span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>    end <span class="op">=</span> <span class="bu">str</span>(year <span class="op">-</span> <span class="dv">1</span>) <span class="op">+</span> <span class="st">&#39;-09-30&#39;</span></span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Grab all of the data from Billboard within the start and end time period</span></span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> charts.loc[(charts[<span class="st">&#39;date&#39;</span>] <span class="op">&gt;=</span> start) <span class="op">&amp;</span> (charts[<span class="st">&#39;date&#39;</span>] <span class="op">&lt;=</span> end)]</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Grab only the winning artist&#39;s data</span></span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>    temp <span class="op">=</span> temp[temp[<span class="st">&#39;artist&#39;</span>].<span class="bu">str</span>.contains(winner[column_name], case<span class="op">=</span><span class="va">False</span>)]</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add the associated year ONLY to the extracted dataframe</span></span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>    temp[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> <span class="bu">int</span>(winner[<span class="st">&#39;year&#39;</span>])</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add the extracted dataframe to the overall dataframe that will be used for the analysis</span></span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>    songs <span class="op">=</span> songs.append(temp)</span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> songs</span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample of the overall resulting datset</span></span>
+<span id="cb30-29"><a href="#cb30-29" aria-hidden="true" tabindex="-1"></a>bigData <span class="op">=</span> get_eligible_songs(bnaWinners, <span class="st">&#39;winner&#39;</span>)</span>
+<span id="cb30-30"><a href="#cb30-30" aria-hidden="true" tabindex="-1"></a>bigData.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+
+  <div id="df-8812aaa2-4f96-469a-a864-42ae3f23bcce">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>rank</th>
+      <th>song</th>
+      <th>artist</th>
+      <th>lastWeek</th>
+      <th>peakRank</th>
+      <th>weeksOnBoard</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>606</th>
+      <td>2021-09-25</td>
+      <td>7</td>
+      <td>Good 4 U</td>
+      <td>Olivia Rodrigo</td>
+      <td>15.0</td>
+      <td>1</td>
+      <td>18</td>
+      <td>2022.0</td>
+    </tr>
+    <tr>
+      <th>619</th>
+      <td>2021-09-25</td>
+      <td>20</td>
+      <td>Deja Vu</td>
+      <td>Olivia Rodrigo</td>
+      <td>31.0</td>
+      <td>3</td>
+      <td>24</td>
+      <td>2022.0</td>
+    </tr>
+    <tr>
+      <th>636</th>
+      <td>2021-09-25</td>
+      <td>37</td>
+      <td>Traitor</td>
+      <td>Olivia Rodrigo</td>
+      <td>49.0</td>
+      <td>9</td>
+      <td>17</td>
+      <td>2022.0</td>
+    </tr>
+    <tr>
+      <th>714</th>
+      <td>2021-09-18</td>
+      <td>15</td>
+      <td>Good 4 U</td>
+      <td>Olivia Rodrigo</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>17</td>
+      <td>2022.0</td>
+    </tr>
+    <tr>
+      <th>730</th>
+      <td>2021-09-18</td>
+      <td>31</td>
+      <td>Deja Vu</td>
+      <td>Olivia Rodrigo</td>
+      <td>13.0</td>
+      <td>3</td>
+      <td>23</td>
+      <td>2022.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8812aaa2-4f96-469a-a864-42ae3f23bcce')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8812aaa2-4f96-469a-a864-42ae3f23bcce button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8812aaa2-4f96-469a-a864-42ae3f23bcce');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="M3r0D2uEKfYR">
+<p>The next steps we took for the hypothesis testing involves grouping the data by the year of the winner and averaging all of the rankings for the artists. Grouping by data takes care of the duplicate artists (ones in features or with multiple songs). Then we graph the average ranking over the year they won.</p>
+</div>
+<div class="cell code" data-execution_count="22" data-colab="{&quot;height&quot;:301,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9sePoAIb0ri-" data-outputId="a7f86d22-46e7-456f-e197-033657677d64">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Grouping by year of winner and finding the average rank</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>meanRank <span class="op">=</span> bigData.groupby([<span class="st">&#39;year&#39;</span>], as_index<span class="op">=</span><span class="va">False</span>)[<span class="st">&#39;rank&#39;</span>].mean()</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> meanRank[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> meanRank[<span class="st">&#39;rank&#39;</span>]</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot data</span></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>plt.scatter(x, y)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Year&quot;</span>)</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Average Billboard Ranking&quot;</span>)</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Winner per Year over Average Billboard Ranking&quot;</span>)</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/dacacf06793ec35a970259e27ad587ba517bd3ed.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="I-_bCQ-sDTpe">
+<p>Just based on the graph itself, it seems that the rankings seemed to be more varied in the earlier years, but begins to cluster together in the later years, with exception to obvious outliers. This is an interesting relationship and should be looked at more closely.</p>
+<p>To start, we choose a linear regression model to see if we can represent the data and further predict what average ranking would be needed for a winner in the years after 2022.</p>
+</div>
+<div class="cell code" data-execution_count="23" data-colab="{&quot;height&quot;:370,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="3qDLFSG64l3a" data-outputId="a326dc97-936d-46e8-f8aa-03bc4ae5e9f7">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> metrics</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x.to_numpy()</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x.reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>regression_model <span class="op">=</span> LinearRegression()</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>regression_model.fit(x, y)</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>y_predicted <span class="op">=</span> regression_model.predict(x)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y, y_predicted)</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>rmse <span class="op">=</span> np.sqrt(metrics.mean_squared_error(y, y_predicted))</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the relevant data</span></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Slope:&#39;</span> ,regression_model.coef_)</span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Intercept:&#39;</span>, regression_model.intercept_)</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;R-squared:&#39;</span>, r2)</span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;RMSE: &#39;</span>, rmse)</span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-24"><a href="#cb32-24" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> meanRank[<span class="st">&#39;year&#39;</span>]</span>
+<span id="cb32-25"><a href="#cb32-25" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> meanRank[<span class="st">&#39;rank&#39;</span>]</span>
+<span id="cb32-26"><a href="#cb32-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-27"><a href="#cb32-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the data along with the predicted line of best fit according to the linear regression model we used</span></span>
+<span id="cb32-28"><a href="#cb32-28" aria-hidden="true" tabindex="-1"></a>plt.scatter(x, y)</span>
+<span id="cb32-29"><a href="#cb32-29" aria-hidden="true" tabindex="-1"></a>m, b <span class="op">=</span> regression_model.coef_, regression_model.intercept_</span>
+<span id="cb32-30"><a href="#cb32-30" aria-hidden="true" tabindex="-1"></a>plt.plot(x, m<span class="op">*</span>x<span class="op">+</span>b, color<span class="op">=</span><span class="st">&quot;red&quot;</span>)</span>
+<span id="cb32-31"><a href="#cb32-31" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Year&quot;</span>)</span>
+<span id="cb32-32"><a href="#cb32-32" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Average Billboard Ranking&quot;</span>)</span>
+<span id="cb32-33"><a href="#cb32-33" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Winner per Year over Average Billboard Ranking&quot;</span>)</span>
+<span id="cb32-34"><a href="#cb32-34" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb32-35"><a href="#cb32-35" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Slope: [0.55969768]
+Intercept: -1081.9264199019053
+R-squared: 0.032102151463941575
+RMSE:  20.62530538880295
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/215e02c8ffc50ed98b8e345085a5edd333e417b4.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="RjBD5k-HDeER">
+<p>Starting with the printed outputs based on the linear regression model, there is a slight increase each year in the average ranking per winning artist based on the Slope. This is shown in the graph as well, but since the y-axis is inverted, the direction of the best fit line shows a downward trend. In the context of the winners, this means that each winner as the years go by have songs that seem to chart a little bit worse than previous years. The Intercept gives more information about the line of best fit and does not add much analysis to the actual hypothesis. The R-squared result, however, is very telling of the relationship between time and average ranking. Because it is so low, it is saying that the correlation between the two is very low, and that there is little to no relationship between the two. An lastly, the RMSE (root mean squared error) shows the variability between the line model given, and the actual data. Because it represents error, the smaller that it is, the more accurate the representation the model is. However, since the result that was given shows a very large number, we can conclude that the relationship between the actual and predicted values based on the model are very far apart, and that the model is not a very good predictor for the data itself.</p>
+<p>We pointed out before that the data points seems to oscillate, so could a non-linear regression model be a better fit? This is what we test next using a curve-fit regression model.</p>
+</div>
+<div class="cell code" data-execution_count="24" data-colab="{&quot;height&quot;:353,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="IUFSmU4EB66W" data-outputId="d1351fa2-46ec-46f2-8787-2122d646bf7b">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> curve_fit</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> differential_evolution</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> meanRank[<span class="st">&#39;year&#39;</span>].to_numpy()</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> meanRank[<span class="st">&#39;rank&#39;</span>].to_numpy()</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Offset function to later help in the error calculations</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> func(x, a, b, Offset):</span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>  <span class="fl">1.0</span> <span class="op">/</span> (<span class="fl">1.0</span> <span class="op">+</span> np.exp(<span class="op">-</span>a <span class="op">*</span> (x<span class="op">-</span>b))) <span class="op">+</span> Offset</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Function for genetic algorithm to minimize (sum of squared error)</span></span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sumOfSquaredError(parameterTuple):</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>    warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>) <span class="co"># Ignore warnings</span></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>    val <span class="op">=</span> func(x, <span class="op">*</span>parameterTuple)</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.<span class="bu">sum</span>((y <span class="op">-</span> val) <span class="op">**</span> <span class="fl">2.0</span>)</span>
+<span id="cb34-19"><a href="#cb34-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-20"><a href="#cb34-20" aria-hidden="true" tabindex="-1"></a><span class="co"># This is to create parameters based on the data</span></span>
+<span id="cb34-21"><a href="#cb34-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_Initial_Parameters():</span>
+<span id="cb34-22"><a href="#cb34-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># min and max used for bounds</span></span>
+<span id="cb34-23"><a href="#cb34-23" aria-hidden="true" tabindex="-1"></a>    maxX <span class="op">=</span> <span class="bu">max</span>(x)</span>
+<span id="cb34-24"><a href="#cb34-24" aria-hidden="true" tabindex="-1"></a>    minX <span class="op">=</span> <span class="bu">min</span>(x)</span>
+<span id="cb34-25"><a href="#cb34-25" aria-hidden="true" tabindex="-1"></a>    maxY <span class="op">=</span> <span class="bu">max</span>(y)</span>
+<span id="cb34-26"><a href="#cb34-26" aria-hidden="true" tabindex="-1"></a>    minY <span class="op">=</span> <span class="bu">min</span>(y)</span>
+<span id="cb34-27"><a href="#cb34-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-28"><a href="#cb34-28" aria-hidden="true" tabindex="-1"></a>    parameterBounds <span class="op">=</span> []</span>
+<span id="cb34-29"><a href="#cb34-29" aria-hidden="true" tabindex="-1"></a>    parameterBounds.append([minX, maxX])</span>
+<span id="cb34-30"><a href="#cb34-30" aria-hidden="true" tabindex="-1"></a>    parameterBounds.append([minX, maxX])</span>
+<span id="cb34-31"><a href="#cb34-31" aria-hidden="true" tabindex="-1"></a>    parameterBounds.append([<span class="fl">0.0</span>, maxY])</span>
+<span id="cb34-32"><a href="#cb34-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-33"><a href="#cb34-33" aria-hidden="true" tabindex="-1"></a>    <span class="co"># &quot;seed&quot; the numpy random number generator for repeatable results</span></span>
+<span id="cb34-34"><a href="#cb34-34" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> differential_evolution(sumOfSquaredError, parameterBounds, seed<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb34-35"><a href="#cb34-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result.x</span>
+<span id="cb34-36"><a href="#cb34-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-37"><a href="#cb34-37" aria-hidden="true" tabindex="-1"></a><span class="co"># generate initial parameter values</span></span>
+<span id="cb34-38"><a href="#cb34-38" aria-hidden="true" tabindex="-1"></a>geneticParameters <span class="op">=</span> generate_Initial_Parameters()</span>
+<span id="cb34-39"><a href="#cb34-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-40"><a href="#cb34-40" aria-hidden="true" tabindex="-1"></a><span class="co"># curve fit the test data</span></span>
+<span id="cb34-41"><a href="#cb34-41" aria-hidden="true" tabindex="-1"></a>fittedParameters, pcov <span class="op">=</span> curve_fit(func, x, y, geneticParameters)</span>
+<span id="cb34-42"><a href="#cb34-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-43"><a href="#cb34-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Parameters&#39;</span>, fittedParameters)</span>
+<span id="cb34-44"><a href="#cb34-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-45"><a href="#cb34-45" aria-hidden="true" tabindex="-1"></a>modelPredictions <span class="op">=</span> func(x, <span class="op">*</span>fittedParameters) </span>
+<span id="cb34-46"><a href="#cb34-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-47"><a href="#cb34-47" aria-hidden="true" tabindex="-1"></a>absError <span class="op">=</span> modelPredictions <span class="op">-</span> y</span>
+<span id="cb34-48"><a href="#cb34-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-49"><a href="#cb34-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Grab the important information related to the regression fit</span></span>
+<span id="cb34-50"><a href="#cb34-50" aria-hidden="true" tabindex="-1"></a>SE <span class="op">=</span> np.square(absError) <span class="co"># squared errors</span></span>
+<span id="cb34-51"><a href="#cb34-51" aria-hidden="true" tabindex="-1"></a>MSE <span class="op">=</span> np.mean(SE) <span class="co"># mean squared errors</span></span>
+<span id="cb34-52"><a href="#cb34-52" aria-hidden="true" tabindex="-1"></a>RMSE <span class="op">=</span> np.sqrt(MSE) <span class="co"># Root Mean Squared Error, RMSE</span></span>
+<span id="cb34-53"><a href="#cb34-53" aria-hidden="true" tabindex="-1"></a>Rsquared <span class="op">=</span> <span class="fl">1.0</span> <span class="op">-</span> (np.var(absError) <span class="op">/</span> np.var(y))</span>
+<span id="cb34-54"><a href="#cb34-54" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;RMSE:&#39;</span>, RMSE)</span>
+<span id="cb34-55"><a href="#cb34-55" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;R-squared:&#39;</span>, Rsquared)</span>
+<span id="cb34-56"><a href="#cb34-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-57"><a href="#cb34-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-58"><a href="#cb34-58" aria-hidden="true" tabindex="-1"></a>plt.scatter(x, y)</span>
+<span id="cb34-59"><a href="#cb34-59" aria-hidden="true" tabindex="-1"></a><span class="co"># create data for the fitted equation plot</span></span>
+<span id="cb34-60"><a href="#cb34-60" aria-hidden="true" tabindex="-1"></a>xModel <span class="op">=</span> np.linspace(<span class="bu">min</span>(x), <span class="bu">max</span>(x))</span>
+<span id="cb34-61"><a href="#cb34-61" aria-hidden="true" tabindex="-1"></a>yModel <span class="op">=</span> func(xModel, <span class="op">*</span>fittedParameters)</span>
+<span id="cb34-62"><a href="#cb34-62" aria-hidden="true" tabindex="-1"></a><span class="co"># now the model as a line plot </span></span>
+<span id="cb34-63"><a href="#cb34-63" aria-hidden="true" tabindex="-1"></a>plt.plot(xModel, yModel, color<span class="op">=</span><span class="st">&quot;Red&quot;</span>)</span>
+<span id="cb34-64"><a href="#cb34-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-65"><a href="#cb34-65" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Year&quot;</span>)</span>
+<span id="cb34-66"><a href="#cb34-66" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Average Billboard Ranking&quot;</span>)</span>
+<span id="cb34-67"><a href="#cb34-67" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Winner per Year over Average Billboard Ranking&quot;</span>)</span>
+<span id="cb34-68"><a href="#cb34-68" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()</span>
+<span id="cb34-69"><a href="#cb34-69" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Parameters [2015.34780946 2005.83454113   43.21142674]
+RMSE: 20.814828170020125
+R-squared: 0.014232696076179385
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_09760a675e4e4d95b1dbfd58c506ec0b/e816aad277a89ccd18cfc48c905069309f3a7db7.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="031hwKby3wc_">
+<p>How is this regression test's results different than the linear regression model? If anything, it seems based on the R2 value that this curve-regression is less of a fit for the data than the linear- regression was. The only extra information that the curve-regression is better at showing is the previous oscillating pattern from before. It shows the middle line that the data seems to fluctuate about, rather than a singularly increasing line like the linear regression showed. This makes sense, because at some year, the linear model would not fit the bounds of the Billboard data. The curve-regression's model is not restricted by this information, so in this contextual sense it would be a better fit for the data over the linear-regression. However, the numerical results form the regression test show that neither linear nor cruve regressions are a good fit for the data, and that there is little correlation between time and average ranking.</p>
+<p>This result may be a bit confusing, but this is where the assumption that was mentioned at the beginning comes in. To fully make sense of these results, we must look into the assumption that we made (that ranking and winning has a relationship itself) to see why our data showed these conclusions.</p>
+<p><strong>The question now becomes: "Is there a relationship between winning the Best New Artist Award, and charting on Billboard?</strong></p>
+</div>
+<section id="the-other-test-not-done-gotta-add-words-n-stuff" class="cell markdown" id="_h9NhJBVBOkL">
+<h1><strong>the other test (not done) (gotta add words n stuff)</strong></h1>
+</section>
+<div class="cell code" data-execution_count="25" data-colab="{&quot;height&quot;:423,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="wHXSbXNOBSZK" data-outputId="7a12143d-0c80-40f2-b746-4209350b39b8">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use function defined earlier to grab all of the nominees&#39; eligible song data</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>artistSongData <span class="op">=</span> get_eligible_songs(awards, <span class="st">&#39;nominees&#39;</span>)</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># calculate artist&#39;s chart longevity based on songs in respective eligibility period</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>longevity <span class="op">=</span> artistSongData.groupby([<span class="st">&#39;song&#39;</span>, <span class="st">&#39;year&#39;</span>], as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">max</span>() </span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>longevity <span class="op">=</span> longevity.groupby([<span class="st">&#39;artist&#39;</span>, <span class="st">&#39;year&#39;</span>], as_index<span class="op">=</span><span class="va">False</span>).<span class="bu">sum</span>() </span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>longevity <span class="op">=</span> longevity.drop(columns<span class="op">=</span>[<span class="st">&#39;lastWeek&#39;</span>, <span class="st">&#39;peakRank&#39;</span>, <span class="st">&#39;rank&#39;</span>]) </span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>longevity[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> longevity[<span class="st">&#39;year&#39;</span>].astype(<span class="bu">int</span>) </span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a><span class="co"># sum artist&#39;s weeksOnBoard with songs they feautured/had a feauture on</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>awards[<span class="st">&#39;weeksOnBoard&#39;</span>] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>awards[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> awards[<span class="st">&#39;year&#39;</span>].astype(<span class="bu">int</span>) </span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index, row <span class="kw">in</span> awards.iterrows():</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>  yearData <span class="op">=</span> longevity[longevity[<span class="st">&#39;year&#39;</span>] <span class="op">==</span> awards.at[index, <span class="st">&#39;year&#39;</span>]]</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> yearIndex, yearRow <span class="kw">in</span> yearData.iterrows():</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> awards.at[index, <span class="st">&#39;nominees&#39;</span>] <span class="kw">in</span> yearData.at[yearIndex, <span class="st">&#39;artist&#39;</span>]:</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>      awards.at[index, <span class="st">&#39;weeksOnBoard&#39;</span>] <span class="op">=</span> awards.at[index, <span class="st">&#39;weeksOnBoard&#39;</span>] <span class="op">+</span> yearData.at[yearIndex, <span class="st">&#39;weeksOnBoard&#39;</span>]</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a><span class="co"># get dummy vaariables out of boolean &#39;winner&#39; column to use in regression later</span></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>awards_dummies <span class="op">=</span> pd.get_dummies(awards, prefix<span class="op">=</span><span class="st">&#39;winner&#39;</span>, prefix_sep<span class="op">=</span><span class="st">&#39;&#39;</span>, </span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>                            columns<span class="op">=</span>[<span class="st">&#39;winner&#39;</span>], drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a><span class="co"># weeksOnBoard now represents the artist cumulative weeks spent on the Hot100 for their eligibility period, including song features</span></span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>awards_dummies</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+
+  <div id="df-123c3775-0f15-4d9f-9c59-b08b08d834fe">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>nominees</th>
+      <th>weeksOnBoard</th>
+      <th>winnerTrue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021</td>
+      <td>Megan Thee Stallion</td>
+      <td>101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021</td>
+      <td>Ingrid Andress</td>
+      <td>20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021</td>
+      <td>Phoebe Bridgers</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021</td>
+      <td>Chika</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021</td>
+      <td>Noah Cyrus</td>
+      <td>16</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>2000</td>
+      <td>Christina Aguilera</td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>2000</td>
+      <td>Macy Gray</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>116</th>
+      <td>2000</td>
+      <td>Kid Rock</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>117</th>
+      <td>2000</td>
+      <td>Britney Spears</td>
+      <td>53</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>2000</td>
+      <td>Susan Tedeschi</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>119 rows × 4 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-123c3775-0f15-4d9f-9c59-b08b08d834fe')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-123c3775-0f15-4d9f-9c59-b08b08d834fe button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-123c3775-0f15-4d9f-9c59-b08b08d834fe');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="y5f-DMeObpFh">
+<p>Since there's only one winner each year and multiple nominees, let's average the nominee data for each year so that we're testing on data of the same size.</p>
+</div>
+<div class="cell code" data-execution_count="26" data-colab="{&quot;height&quot;:206,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9-Iz2-uGb2Z6" data-outputId="3e304225-2a7d-4f8c-e38a-4858a261f925">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># pull the nominee data and get the avg for each year</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>awards_dummies_avgs <span class="op">=</span> awards_dummies[awards_dummies[<span class="st">&#39;winnerTrue&#39;</span>] <span class="op">==</span> <span class="dv">0</span>]</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>awards_dummies_avgs <span class="op">=</span> awards_dummies_avgs.groupby([<span class="st">&#39;year&#39;</span>, <span class="st">&#39;winnerTrue&#39;</span>], as_index<span class="op">=</span><span class="va">False</span>).mean()</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># add the winner data back in</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>awards_dummies_avgs <span class="op">=</span> pd.concat([awards_dummies_avgs, awards_dummies[awards_dummies[<span class="st">&#39;winnerTrue&#39;</span>] <span class="op">==</span> <span class="dv">1</span>]]).reset_index(drop <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>awards_dummies_avgs <span class="op">=</span> awards_dummies_avgs.drop([<span class="st">&#39;nominees&#39;</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>awards_dummies_avgs.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+
+  <div id="df-9720ac40-613f-407d-a38c-2dec6864791b">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>winnerTrue</th>
+      <th>weeksOnBoard</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2000</td>
+      <td>0</td>
+      <td>13.25</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2001</td>
+      <td>0</td>
+      <td>27.75</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2002</td>
+      <td>0</td>
+      <td>22.75</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2003</td>
+      <td>0</td>
+      <td>55.50</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2004</td>
+      <td>0</td>
+      <td>65.50</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-9720ac40-613f-407d-a38c-2dec6864791b')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-9720ac40-613f-407d-a38c-2dec6864791b button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-9720ac40-613f-407d-a38c-2dec6864791b');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="27" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="hs-FpwswpYfg" data-outputId="f52ae0ee-1e04-4bba-cb02-7b534f74777c">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> awards_dummies_avgs[<span class="st">&#39;winnerTrue&#39;</span>]</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> x.to_numpy().reshape(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>)</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> awards_dummies_avgs[<span class="st">&#39;weeksOnBoard&#39;</span>]</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>model.fit(x, y)</span>
+<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Slope:&#39;</span> ,model.coef_[<span class="dv">0</span>])</span>
+<span id="cb38-12"><a href="#cb38-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Intercept:&#39;</span>, model.intercept_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Slope: 14.534090909090903
+Intercept: 36.875
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="rjUxYTU2plMO">
+<p>From this, we can see that nominees' longevity on the Hot 100 averages at about 37 total weeks, while winners achieve about 51-52 total weeks on the chart. Keep in mind that this applies to their eligibility period before the winner of the award was determined. But let's check if the model actually has any relevancy.</p>
+</div>
+<div class="cell code" data-execution_count="28" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="uQBcz2rAplvn" data-outputId="bb55fa46-c0ba-4c7a-bbf0-1dcc564b6354">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>x2 <span class="op">=</span> sm.add_constant(x)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>est <span class="op">=</span> sm.OLS(y, x2)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>est2 <span class="op">=</span> est.fit()</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;P-values: &#39;</span>, est2.pvalues)</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;R^2: &#39;</span>, est2.rsquared)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>P-values:  const    0.000030
+x1       0.199363
+dtype: float64
+R^2:  0.03890601181416431
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="RqBnJi5Iqr1K">
+<p>Our p-value of 0.199 and r^2 value of 0.039 indicates that there is not a strong correlation between the coefficient and the target, so we cannot reject our null hypothesis.</p>
+</div>
+<section id="conclusion" class="cell markdown" id="jXY3yj10tYWU">
+<h1>Conclusion</h1>
+</section>
+<div class="cell markdown" id="q-SiI9jcdahu">
+
+</div>
+</body>
+</html>
